@@ -10,6 +10,7 @@ const Navigation = () => (
       <Button color="inherit" component={Link} to="/pipeline">In-Pipeline Customers</Button>
       <Button color="inherit" component={Link} to="/renewals">Renewals</Button>
       <Button color="inherit" component={Link} to="/inforce">Inforce Status</Button>
+      <Button color="inherit" component={Link} to="/search">Search here</Button>
     </Toolbar>
   </AppBar>
 );
