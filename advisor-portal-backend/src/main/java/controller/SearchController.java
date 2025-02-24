@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SearchController {
 
-    // Initialize the Kendra client (make sure AWS credentials are available)
     private final AWSkendra kendraClient = AWSkendraClientBuilder.standard().build();
 
     private final String indexId = "01b95b57-feaa-430e-b1cb-a9bd3c1c91e8";
