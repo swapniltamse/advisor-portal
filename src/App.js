@@ -12,7 +12,6 @@ function App() {
   return (
     <Router>
       <Navigation />
-      <SearchBox />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/marketing" element={<MarketingMaterials />} />
@@ -21,6 +20,7 @@ function App() {
         <Route path="/inforce" element={<InforceStatus />} />
         <Route path="/search" element={<SearchBox />} />
       </Routes>
+      <SearchBox />
     </Router>
   );
 }

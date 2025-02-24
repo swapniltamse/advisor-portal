@@ -26,7 +26,7 @@ const SearchBox = () => {
 
   return (
     <Container>
-      <Typography variant="h4" gutterBottom>Marketing Material Search</Typography>
+      <Typography variant="h4" gutterBottom align='center'>Search True Express</Typography>
       <TextField
         label="What are you looking for today?"
         variant="outlined"
@@ -40,6 +40,7 @@ const SearchBox = () => {
         color="primary"
         onClick={handleSearch}
         disabled={loading}
+        sx={{ display: 'block', margin: '0 auto' }} 
       >
         {loading ? 'Searching...' : 'Search'}
       </Button>
